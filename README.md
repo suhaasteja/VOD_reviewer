@@ -1,1 +1,28 @@
-# VOD_reviewer
+## Clash Royale VOD Reviewer 👑
+
+Clash Royale is a fast-paced competitive mobile game where players deploy troops
+to destroy the opponent's towers — whoever captures the most towers before the
+clock runs out wins.
+
+**What's a VOD?**
+VOD stands for *Video on Demand* — in gaming, it refers to a recorded replay of
+a match. Reviewing your own VODs is one of the most effective ways to improve:
+you see your decisions from the outside, spot patterns you missed in the moment,
+and identify exactly where a game was won or lost. Pro players and coaches do
+this constantly. The problem is it's time-consuming and requires a trained eye.
+
+**Where Perceptron comes in**
+This notebook uses Perceptron Mk1 — a vision model that understands video — to
+automate that review process. Instead of scrubbing through footage manually, you
+ask a question in plain English and get a grounded, timestamped answer backed by
+what the model actually saw on screen. No transcripts, no audio analysis, no
+game-specific training data — pure visual reasoning on the gameplay footage itself.
+
+The final 30 seconds are where matches are decided. That's the window we focus on.
+
+**What it does:**
+- **VOD analysis** — reviews the last 30s of a match and diagnoses the single
+  defining play: the outplay that secured the win, or the mistake that cost the loss
+- **Card tracking** — upload a reference image of any troop card and the model
+  will track how many times it was deployed and the damage it dealt (powered by
+  in-context learning — no retraining required)

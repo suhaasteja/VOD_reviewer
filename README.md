@@ -1,5 +1,11 @@
 ## Clash Royale VOD Reviewer 👑
 
+> 🚀 **Try it live:** [huggingface.co/spaces/suhaas-teja/clash-royale-vod-reviewer](https://huggingface.co/spaces/suhaas-teja/clash-royale-vod-reviewer)
+>
+> No setup required — upload a clip and get coaching in your browser. This repo holds the step-by-step Colab notebook the Space was built from.
+
+---
+
 Clash Royale is a fast-paced competitive mobile game where players deploy troops
 to destroy the opponent's towers — whoever captures the most towers before the
 clock runs out wins.

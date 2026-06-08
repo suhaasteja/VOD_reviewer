@@ -2,7 +2,9 @@
 
 > 🚀 **Try it live:** [huggingface.co/spaces/suhaas-teja/clash-royale-vod-reviewer](https://huggingface.co/spaces/suhaas-teja/clash-royale-vod-reviewer)
 >
-> No setup required — upload a clip and get coaching in your browser. This repo holds the step-by-step Colab notebook the Space was built from.
+> No setup required — upload a clip and get coaching in your browser. This repo holds the step-by-step Colab notebook the Space was built from, plus a long-form [writeup](WRITEUP.md).
+
+🎥 **Demo video:** [demo.mp4](demo.mp4) — 74s walkthrough of the Hugging Face Space (sample clip + card tracking flow, live Mk1 streaming).
 
 ---
 

@@ -58,7 +58,7 @@ The build went from notebook to production app in a deliberate sequence.
 
 **1. Colab experimentation.** I prototyped every prompt, schema, and call shape in a Jupyter notebook first. Raw response inspection, fast iteration loop, no UI overhead. The notebook stayed in the repo as the explainer doc once the flows stabilized.
 
-**2. Compression script for input video.** Raw mobile gameplay recordings are typically 600 MB+. Mk1 caps requests at 20 MB, so I wrote a small ffmpeg wrapper (`prep_clip.py`) that runs in two passes
+**2. Compression script for input video.** Raw mobile gameplay recordings are typically 600 MB+. Mk1 caps requests at 20 MB, so I wrote a small ffmpeg wrapper (`prep_clip.py`) that compresses the video
 
 Most first-time Mk1 calls fail not for model reasons but because the raw clip is too big. The 18 MB / 6 fps recipe ships reliably.
 

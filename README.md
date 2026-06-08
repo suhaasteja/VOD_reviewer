@@ -4,7 +4,11 @@
 >
 > No setup required — upload a clip and get coaching in your browser. This repo holds the step-by-step Colab notebook the Space was built from, plus a long-form [writeup](WRITEUP.md).
 
-🎥 **Demo video:** [demo.mp4](demo.mp4) — 74s walkthrough of the Hugging Face Space (sample clip + card tracking flow, live Mk1 streaming).
+🎥 **Demo video:** [demo.mp4](demo.mp4) — walkthrough of the Hugging Face Space (sample clip + card tracking flow, live Mk1 streaming).
+
+---
+
+https://github.com/user-attachments/assets/f27e284e-c578-4fc2-88be-6712145890bd
 
 ---
 
